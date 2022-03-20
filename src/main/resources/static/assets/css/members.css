@@ -1,0 +1,41 @@
+.profile {
+    width: 230px;
+    height: 230px;
+    border-radius: 200px;
+    border: 1px solid rgb(139, 149, 161);
+    
+}
+.mem_container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.member {
+    padding: 60px;
+    flex : none;
+    
+}
+.member > span > p {
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+    font-weight:normal;
+    font-size: 30px;
+    color: rgb(199, 199, 199);
+    
+}
+.mem_headline {
+    padding-bottom: 20px;
+    margin: 30px;
+}
+.mem_headline > hr, p {
+    color: #ffaa00;
+    font-size: 50px;
+    padding: 0px;
+    margin: 0px;
+    margin-bottom: 30px;
+}
+
+.container{
+    padding: 50px 0 50px 0;
+}
